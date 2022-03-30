@@ -1,4 +1,4 @@
-# Add-New-Client
+# New Client Registration System
 
 This is a new Client Registration System created in [Google App Scripts](https://developers.google.com/apps-script).
 
