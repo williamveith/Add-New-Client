@@ -18,3 +18,7 @@
 - [**Calendar Description.html**](./backend/Calendar%20Description.html) This template formats new user information added to the Google Calendar Event so it is more readable
 
 ## Outputs
+
+- [**Email: Registration Confirmed**](./outputs/registration-confirmation.pdf)
+- [**Email: Account Already Exists**](./outputs/account-already-exists.pdf)
+- [**Calendar Event: Admin Account**](./outputs/calendar-event.pdf)
