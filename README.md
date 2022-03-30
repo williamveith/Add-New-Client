@@ -1,18 +1,23 @@
 # Add-New-Client
 
-This is new Client registration system. The system has several benefits:
+This is a new Client Registration System created in [Google App Scripts](https://developers.google.com/apps-script).
 
-1. Code editing and testing is done on a free Google Account IDE
-2. Event triggers cause the program to run, for free, on Google Cloud
-3. Program databases are stored in a free Google Account as a JSON Document Database
+1. The system is monitored, maintained, hosted, and run, for free, on a standard Google Account
+2. Everything is JavaScript and JSON, which simplifies the tech stack
+3. Google services are used to access data and external systems
+
+   - [Google Calendar](https://developers.google.com/apps-script/reference/calendar)
+   - [Drive](https://developers.google.com/apps-script/reference/drive)
+   - [Gmail](https://developers.google.com/apps-script/reference/gmail)
+   - [Forms](https://developers.google.com/apps-script/reference/forms)
 
 ## Front End
 
-- [**Registration-Form.html**](./frontend/Registration-Form.html) Google Form with Regex response validation and script triggers on form submit
+- [**Registration-Form.html**](./frontend/Registration-Form.html) Google Form with regex response validation and [on form submit script trigger](https://ctrlq.org/google.apps.script/docs/guides/triggers/events.html)
 
 ## Back End
 
-- [**main.js**](./backend/main.js) Function onNewUserAuthorizationFormSubmit(e) runs when a form is submitted and catches the form response. The response is then processed
+- [**main.js**](./backend/main.js) Function onNewUserAuthorizationFormSubmit(e) catches and processes form responses on form submit
 - [**History.js**](./backend/History.js) An encrypted JSON Document Database stored in Google Drive contains a record of all registered users
 - [**Transparent Encryption.js**](./backend/Transparent%20Encryption.js) Serves as an interface between the code and the encrypted data. Records are decrypted and encrypted automatically when records are retrieved or saved
 - [**Cryptography.js**](./backend/Cryptography.js) Cryptographic primitives from crypto-js used for the encryption and decryption protocol
@@ -28,3 +33,4 @@ This is new Client registration system. The system has several benefits:
 - [**Email: Registration Confirmed**](./outputs/registration-confirmation.pdf)
 - [**Email: Account Already Exists**](./outputs/account-already-exists.pdf)
 - [**Calendar Event: Admin Account**](./outputs/calendar-event.pdf)
+- [**Database: Google Drive Storage**](./outputs/database-storage.pdf)
