@@ -6,10 +6,10 @@ This is a new Client Registration System created in [Google App Scripts](https:/
 2. Everything is JavaScript and JSON, which simplifies the tech stack
 3. Google services are used to access data and external systems
 
-   - [Google Calendar](https://developers.google.com/apps-script/reference/calendar)
    - [Drive](https://developers.google.com/apps-script/reference/drive)
    - [Gmail](https://developers.google.com/apps-script/reference/gmail)
    - [Forms](https://developers.google.com/apps-script/reference/forms)
+   - [Google Calendar](https://developers.google.com/apps-script/reference/calendar)
 
 ## Front End
 
@@ -30,7 +30,7 @@ This is a new Client Registration System created in [Google App Scripts](https:/
 
 ## Outputs
 
-- [**Email: Registration Confirmed**](./outputs/registration-confirmation.pdf)
-- [**Email: Account Already Exists**](./outputs/account-already-exists.pdf)
 - [**Calendar Event: Admin Account**](./outputs/calendar-event.pdf)
 - [**Database: Google Drive Storage**](./outputs/database-storage.pdf)
+- [**Email: Account Already Exists**](./outputs/account-already-exists.pdf)
+- [**Email: Registration Confirmed**](./outputs/registration-confirmation.pdf)
