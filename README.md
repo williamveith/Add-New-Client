@@ -1,5 +1,11 @@
 # Add-New-Client
 
+This is new Client registration system. The system has several benefits:
+
+1. Code editing and testing is done on a free Google Account IDE
+2. Event triggers cause the program to run, for free, on Google Cloud
+3. Program databases are stored in a free Google Account as a JSON Document Database
+
 ## Front End
 
 - [**Registration-Form.html**](./frontend/Registration-Form.html) Google Form with Regex response validation and script triggers on form submit
