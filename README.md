@@ -13,6 +13,6 @@
 - [**Calendar Description.html**](./backend/Calendar%20Description.html)
 
 ## Front End
-- [**Registration Form.html**](./frontend/Registration%20Form.html)
+- [**Registration-Form.html**](./frontend/Registration-Form.html)
 
 ## Outputs
