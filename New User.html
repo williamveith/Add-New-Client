@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base target="_top">
+</head>
+
+<body>
+  <span style='font-family: "Times New Roman", Times, serif; font-size: 14px;'>
+    <p>
+      Dear
+      <?=inputs["Name"]?>,
+    </p>
+    <blockquote>
+      Your request for a new Lab Access account has been received. For future reference, your account information is:
+      <blockquote>
+        <b>
+          Username:
+        </b>
+        <?=inputs["UT EID"]?> <br>
+        <b>
+          Password:
+        </b>
+        <?=inputs["Password"]?> <br>
+        <b>
+          Account Activation Date:
+        </b>
+        <?=inputs["Account Activation"]?>
+      </blockquote>
+      Please remember to complete the
+      <!-- Link to Sedona Registration Page removed for security reasons -->
+      <a href="">Sedona Registration Form</a>
+      if you have not already done so.
+    </blockquote>
+    <p>
+      Regards,<br>William Veith
+    </p>
+  </span>
+</body>
+<footer>
+  <p>
+    <em>
+      <span style='font-family: "Times New Roman", Times, serif; font-size: 12px;'>
+        <a href="https://www.linkedin.com/in/william-veith">This program was produced by Veith Automated Work
+          Services</a>
+      </span>
+    </em>
+  </p>
+</footer>
+
+</html>
