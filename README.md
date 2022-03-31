@@ -1,9 +1,9 @@
 # New Client Registration System
 
-This is a new Client Registration System created in [Google App Scripts](https://developers.google.com/apps-script).
+A cloud based Client Registration System created in [Google App Scripts](https://developers.google.com/apps-script).
 
-1. The system is monitored, maintained, hosted, and run, for free, on a standard Google Account
-2. Everything is JavaScript and JSON, which simplifies the tech stack
+1. The system is monitored, hosted, and run, for free, on a standard Google Account
+2. Everything is JavaScript and JSON, simplifying the tech stack
 3. Google services are used to access data and external systems
 
    - [Drive](https://developers.google.com/apps-script/reference/drive)
