@@ -17,7 +17,7 @@ A cloud based Client Registration System created in [Google App Scripts](https:/
 
 ## Back End
 
-- [**main.js**](./backend/main.js) Function onNewUserAuthorizationFormSubmit(e) catches and processes form responses on form submit
+- [**main.js**](./backend/main.js) Function `onNewUserAuthorizationFormSubmit(e)` catches and processes form responses on form submit
 - [**History.js**](./backend/History.js) An encrypted JSON Document Database stored in Google Drive contains a record of all registered users
 - [**Transparent Encryption.js**](./backend/Transparent%20Encryption.js) Serves as an interface between the code and the encrypted data. Records are decrypted and encrypted automatically when records are retrieved or saved
 - [**Cryptography.js**](./backend/Cryptography.js) Cryptographic primitives from crypto-js used for the encryption and decryption protocol
